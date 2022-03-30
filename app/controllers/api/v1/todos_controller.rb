@@ -55,5 +55,3 @@ class Api::V1::TodosController < ApplicationController
     params.require(:todo).permit(:name, :is_completed)
   end
 end
-
-end
